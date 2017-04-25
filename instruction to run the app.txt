@@ -1,0 +1,5 @@
+#setup your twitter API by giving your own twitter API and secret
+#run the twitter.R script 
+#load rshiny 
+#excute runApp()
+#And you are all set to play with the tweets surrounding you see the wordcloud
