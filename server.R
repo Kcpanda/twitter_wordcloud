@@ -14,7 +14,7 @@ library(RColorBrewer)
 library(plotrix)
 shinyServer(function (input, output) {
   rawData <- reactive(
-    { tweets <- searchTwitter(input$term, n=input$cant))
+    { tweets <- searchTwitter(input$term, n=input$cant)
     return(twListToDF(tweets))
     })
   
